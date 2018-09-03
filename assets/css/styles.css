@@ -86,8 +86,8 @@ body {
 }
 
 .subtitle {
-  position:absolute;
   font-style:italic;
+  position:absolute;
   font-family:serif;
   font-size:18px;
   left:3em;
@@ -524,5 +524,10 @@ pos-absolute {
 pos-absolute {
   position:absolute;
   z-index:100;
+}
+
+pos-absolute {
+  position:absolute;
+  top:110px;
 }
 
