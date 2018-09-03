@@ -1,0 +1,130 @@
+div.jumbotron.carousel-hero {
+  color:#fff;
+  text-align:center;
+  background-size:cover;
+  background-position:center;
+  padding-top:100px;
+  padding-bottom:100px;
+  margin-bottom:0;
+}
+
+div.jumbotron.hero-nature {
+  background-image:url(../../assets/img/carasel1.jpg);
+}
+
+div.jumbotron.hero-photography {
+  background-image:url(../../assets/img/carasel2.jpg);
+}
+
+div.jumbotron.hero-technology {
+  background-image:url(../../assets/img/carasel3.jpg);
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow:0 3px 3px rgba(0,0,0,0.4);
+  color:#fff;
+}
+
+p.hero-subtitle {
+  max-width:600px;
+  margin:25px auto;
+  padding:10px 15px;
+  color:#fff;
+}
+
+.services {
+  background-image:url(../../assets/img/services.jpg);
+  color:#0062cc;
+  text-align:center;
+  background-size:cover;
+  background-position:center;
+  padding-top:224px;
+  padding-bottom:50px;
+  margin-bottom:0;
+}
+
+.jumbotron {
+  border-radius:0rem;
+}
+
+.alignleft {
+  float:left;
+  margin-bottom:0;
+}
+
+@media (min-width: 474px) {
+  .alignleft {
+    margin-left:3rem;
+  }
+}
+
+@media (min-width: 474px) {
+  .alignright {
+    margin-right:3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .alignleft {
+    margin-left:6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .alignright {
+    margin-right:6rem;
+  }
+}
+
+.alignright {
+  float:right;
+  margin-bottom:0;
+}
+
+.clear {
+  clear:both;
+}
+
+.col.servicecol {
+  font-size:1.5rem;
+  padding-bottom:0px;
+  color:black;
+}
+
+@media (max-width: 576px) {
+  .col.servicecol {
+    font-size:1.2rem;
+    letter-spacing:-1px;
+  }
+}
+
+@media (max-width: 766px) {
+  .col.servicecol {
+    font-size:1.4rem;
+    letter-spacing:-1.4px;
+  }
+}
+
+.brdbottom-dashed {
+  border-bottom:2px dotted black;
+}
+
+.accent-service {
+  font-size:1rem;
+}
+
+.alignleft-mini {
+  margin-bottom:0;
+  float:left;
+}
+
+.alignright-mini {
+  margin-bottom:0;
+  float:right;
+}
+
+font-size-big {
+  font-variant:small-caps;
+  font-size:4rem;
+}
+
