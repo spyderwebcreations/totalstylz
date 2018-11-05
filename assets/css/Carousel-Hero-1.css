@@ -66,3 +66,58 @@ p.hero-subtitle {
   border-color: gray;
 }
 
+#promo_sub_title {
+  font-size: 20pt;
+  font-variant: small-caps;
+}
+
+#top_services {
+  background-color: rgb(155,155,155);
+}
+
+.bgcol-gray {
+  background-color: rgba(125,125,125,.6);
+}
+
+.address {
+  margin-top: 0px;
+}
+
+@media (max-width: 576px) {
+  .about_opening_paragraph {
+    font-size: 1.3rem;
+    font-style: italic;
+  }
+}
+
+.about_opening_paragraph {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.hours {
+  font-size: 14pt;
+  border-top: 5px rgb(177,39,27);
+  border-bottom: 5px rgb(177,39,27);
+  font-style: oblique;
+}
+
+.hour_div {
+  margin: 15px;
+  background-color: rgba(177,39,27,.6);
+}
+
+#hours_borders {
+  border-top: 5px solid rgba(177,39,27,.6);
+  border-bottom: 5px solid rgba(177,39,27,.6);
+}
+
+#address {
+  font-size: 20pt;
+  font-style: oblique;
+}
+
+.top_red_border {
+  border-top: 5px solid rgba(177,39,27,.6);
+}
+
