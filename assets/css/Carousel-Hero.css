@@ -9,19 +9,19 @@ div.jumbotron.carousel-hero {
 }
 
 div.jumbotron.hero-nature {
-  background-image: url(../../assets/img/carasel1.jpg);
+  background-image: url(../../assets/img/December_carasel2.jpg);
 }
 
 div.jumbotron.hero-photography {
-  background-image: url(../../assets/img/carasel2.jpg);
+  background-image: url(../../assets/img/December_carasel3.jpg);
 }
 
 div.jumbotron.hero-technology {
-  background-image: url(../../assets/img/carasel3.jpg);
+  background-image: url(../../assets/img/December_carasel1.jpg);
 }
 
 h1.hero-title, h2.hero-title, h3.hero-title {
-  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  text-shadow: 0 3px 3px rgba(0,0,0,1);
   color: #fff;
 }
 
@@ -29,12 +29,13 @@ p.hero-subtitle {
   max-width: 600px;
   margin: 25px auto;
   padding: 10px 15px;
+  text-shadow: 2px 2px 2px black;
   color: #fff;
 }
 
 .services {
   background-image: url(../../assets/img/services.jpg);
-  color: #0062cc;
+  color: #00B32c;
   text-align: center;
   background-size: cover;
   background-position: center;
@@ -126,5 +127,27 @@ p.hero-subtitle {
 font-size-big {
   font-variant: small-caps;
   font-size: 4rem;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #0D5411;
+  border-color: #000000;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #00B32C;
+  border-color: #007853;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #136207;
+  border-color: #00B32C;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(0,176,39,.5);
 }
 

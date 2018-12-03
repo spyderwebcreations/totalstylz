@@ -209,7 +209,7 @@ a:hover {
 .indexpromo {
   text-shadow: 2px 2px black;
   margin-bottom: 0rem;
-  background-color: rgba(177, 39, 27, .6);
+  background-color: rgba(0, 179, 29, .6);
 }
 
 @media (min-width: 992px) {
@@ -223,7 +223,7 @@ a:hover {
   padding: 60px;
   border: 14px double black;
   border-bottom: none;
-  background: url(../../assets/img/shears.jpg) no-repeat;
+  background: url(../../assets/img/December_Promo.jpg) no-repeat;
   background-size: cover;
 }
 
