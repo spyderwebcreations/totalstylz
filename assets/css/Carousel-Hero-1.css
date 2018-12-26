@@ -125,3 +125,7 @@ p.hero-subtitle {
   background-image: url(../../assets/img/Makeup_Artist_Total_STYLZ.jpg);
 }
 
+.black-highlight {
+  background-color: rgba(0,0,0,.6);
+}
+
