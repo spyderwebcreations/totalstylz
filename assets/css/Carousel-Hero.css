@@ -129,25 +129,3 @@ font-size-big {
   font-size: 4rem;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #0D5411;
-  border-color: #000000;
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: #00B32C;
-  border-color: #007853;
-}
-
-.btn-primary:hover {
-  color: #fff;
-  background-color: #136207;
-  border-color: #00B32C;
-}
-
-.btn-primary.focus, .btn-primary:focus {
-  box-shadow: 0 0 0 .2rem rgba(0,176,39,.5);
-}
-
