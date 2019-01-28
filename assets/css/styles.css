@@ -483,6 +483,7 @@ a:hover {
 @media (max-width: 554px) {
   .bg-image {
     padding: 100px;
+    padding-top: 250px;
   }
 }
 
